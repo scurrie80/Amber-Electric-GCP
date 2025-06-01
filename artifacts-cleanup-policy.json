@@ -1,0 +1,13 @@
+[
+  {
+    "name": "Default",
+    "id": "delete-old-untagged-images",
+    "action": {
+      "type": "DELETE"
+    },
+    "condition": {
+      "olderThan": "5d",
+      "tagState": "UNTAGGED"
+    }
+  }
+]
