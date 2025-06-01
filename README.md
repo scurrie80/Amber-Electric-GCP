@@ -15,7 +15,7 @@ This directory contains Google Cloud Run Functions designed to interact with the
 ## Directory Structure
 
 ```text
-Cloud Run Function/
+/
 ├── artifacts-cleanup-policy.json
 ├── env.yaml
 ├── get-backfill/
