@@ -1,0 +1,6 @@
+pytest
+pytest-asyncio
+aiohttp # For testing AsyncAmberClient if responses library is not sufficient and for pytest-aiohttp
+google-cloud-storage # To ensure test environment has it for mocking
+responses # For mocking HTTP requests
+pytest-aiohttp # For more robust aiohttp testing
